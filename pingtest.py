@@ -3,7 +3,7 @@ import subprocess
 
 def main(host, packets):
 
-    print("You are currently using: " + str(platform.system))
+    #print("You are currently using: " + str(platform.system))
 
     parameter = '-n' if platform.system().lower()=='windows' else '-c'
 
